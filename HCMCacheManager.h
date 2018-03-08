@@ -5,8 +5,8 @@
 //  Created by X on 2017/11/29.
 //
 
-#import "YYCache.h"
-
+#import <UIKit/UIKit.h>
+@class YYCache;
 //@interface HCMFileCacheManager: NSObject
 //
 //@property (nonatomic, strong, readonly) YYDiskCache *cache;

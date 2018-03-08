@@ -6,7 +6,7 @@
 //
 
 #import "HCMCacheManager.h"
-
+#import "YYCache.h"
 
 /** ~/Library/Caches/com.supconit.hcmobile.ios/basis */
 static NSString *const kPublicValuesCacheName = @"supconit_hcmobile_ios";
