@@ -7,30 +7,9 @@
 
 #import <UIKit/UIKit.h>
 @class YYCache;
-//@interface HCMFileCacheManager: NSObject
-//
-//@property (nonatomic, strong, readonly) YYDiskCache *cache;
-//@property (nonatomic, copy, readonly) NSString *cachePath;
-
-//@property (nonatomic, strong, readonly) YYDiskCache *imageCache;
-//@property (nonatomic, copy, readonly) NSString *imageCachePath;
-//
-//@property (nonatomic, strong, readonly) YYDiskCache *videoCache;
-//@property (nonatomic, copy, readonly) NSString *videoCachePath;
-//
-//@property (nonatomic, strong, readonly) YYDiskCache *audioCache;
-//@property (nonatomic, copy, readonly) NSString *audioCachePath;
-
-//+ (instancetype)sharedManager;
-//
-//@end
-
-
-
-
 
 @interface HCMCacheManager : NSObject
-@property (nonatomic, strong, readonly) YYCache *cache;
+@property (nonatomic, strong) YYCache *cache;
 + (instancetype)sharedManager;
 /**
  * 以下方法都为同步操作，为阻塞当前线程直至操作完成
