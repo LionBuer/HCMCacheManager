@@ -13,6 +13,7 @@ static NSString *const kPublicValuesCacheName = @"supconit_hcmobile_ios";
 /** ~/Library/Caches/com.supconit.hcmobile.ios/basis */
 static NSString *const kPrivateValuesCacheName = @"supconit_hcmobile_ios_for_platform";
 
+static NSString * const kCacheFolderName = @"com.supconit.hcmobile.ios";
 
 
 
